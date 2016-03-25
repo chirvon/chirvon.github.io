@@ -1,0 +1,100 @@
+html{
+	height: 100%;
+}
+
+body {
+	position: relative;
+	/*overflow-x: hidden;*/
+	background: url("../img/bg_img.jpg") center 0 no-repeat;
+	background-color: #848585;
+    background-size: auto 1060px; /* Масштабируем фон */
+    width: 100%;
+
+    max-width: 1980px;
+    max-height: 1080px;
+}
+
+.wrapper{
+	position: relative;
+	/* 
+	это будет минимальное разрешение экрана
+	width: 1024px;
+	height: 768px; */
+	width: 100%;
+	height: 768px;
+
+	margin: 0 auto;
+	margin-top: 1px;
+	/* background-color: grey; */
+}
+/* верхний текст */
+.header, .headerTransparent{
+	position: absolute;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+	height: 135px;
+}
+
+.headerTransparent{
+	background-color: #e8e8e8;
+	-webkit-box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.9);
+	-moz-box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.9);
+	box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.95);
+
+	opacity: 0.7;	
+}
+.head1{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 78px;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: normal;
+    font-style: normal;
+    color: #0707ba;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-weight: 700;
+	font-size: 40px;
+}
+.head2{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 38px;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: normal;
+    font-style: normal;
+    color: #0707ba;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-weight: 700;
+	font-size: 34px;
+}
+.logo{
+	/*логотип каражиры*/
+	position: absolute;
+	width: 240px;
+	height: 155px;
+	margin-left: 1.3%;
+	margin-top: 1px;
+	background: url("../img/logo_karagira.png") center 0 no-repeat;
+	background-size: auto 130px; /* Масштабируем фон */
+
+}
+
+
+
+/*нижнее лого*/
+.footer{ 
+	position: absolute;
+	clear: both;
+	width: 890px;
+	height: 145px;
+	margin-left: 3px;
+	margin-top: 810px;	
+	background: url("../img/logo-centr.png") center 0 no-repeat;
+	/*background-size: auto 130px; /* Масштабируем фон */
+}
