@@ -1,0 +1,392 @@
+html{
+	height: 100%;
+}
+
+body {
+	position: relative;
+	background-color: #dde3e3;
+	width: 100%;
+	max-width: 1980px;    
+}
+
+.wrapper{ /*1280*/
+	position: relative; /*1280*/
+	/*width: 100%;*/
+	width: 1314px;
+	height: 955px;
+	/*это будет минимальное разрешение экрана*/
+	/*height: 768px;*/
+	margin: 0 auto;
+	margin-top: 1px;
+	background: url("../img/bg_img3.jpg") -195px 0 no-repeat;
+	background-size: auto 955px;
+}
+
+/* верхний текст */
+.header, .headerTransparent{
+	position: absolute;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-left: -2px;
+	width: 100%;
+	height: 135px;
+}
+.header {
+	position: relative;
+}
+
+
+.headerTransparent{
+	background-color: #e8e8e8;
+	-webkit-box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.9);
+	-moz-box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.9);
+	box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.95);
+	opacity: 0.7;	
+}
+.head1{
+	/*position: absolute;*/
+	display: block;
+	width: 100%;
+	height: 29px;
+	margin-top: 14px;
+	margin-left: 80px;
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: #070707;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 25px;
+
+}
+
+.p2{ /*для СРЕДСТВ ИНДИВИДУАЛЬНОЙ ЗАЩИТЫ И КОРПОРАТИВНОЙ СПЕЦИАЛЬНОЙ ОДЕЖДЫ*/
+	height: 29px;
+	margin-top: 1px;
+	margin-left: 85px;
+}
+.logo{
+	/*логотип каражиры*/
+	position: absolute;
+	width: 240px;
+	height: 107px;
+	margin-left: -5px;
+	margin-top: 0px;
+	background: url("../img/logo_karagira.png") center 0 no-repeat;
+	background-size: auto 105px; /* Масштабируем фон */
+
+}
+
+.lineh{
+	/*красивая линия в head*/
+	position: absolute;
+	width: 1280px;
+	height: 23px;
+	margin-left: 17px;
+  	margin-top: 33px;
+	background: url("../img/lineh.png") center 0 no-repeat;
+	/*background-size: auto 105px; /* Масштабируем фон */
+}
+/*************************************************************/
+/*центральная часть*/
+.content{
+	position: absolute;
+	width: 100%;
+	height: 740px;
+}
+
+.contentHeader{
+	position: absolute;
+	width: 730px;
+	top: 51px;
+	left: 344px;
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: rgb(8, 8, 155);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 24px;
+}
+
+/*левое меню СТРУКТУРА УПРАВЛЕНИЯ*/
+.wrapperStructure{
+	position: absolute;
+	width: 460px;
+	height: 640px;
+	margin-top: 120px;
+	margin-left: 30px;
+}
+
+.menu li a {
+	/*position: absolute;*/
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: rgb(7, 7, 7);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+}
+
+
+
+.mLeft li a { /* отступы в меню (между строками) */
+	width: 440px;
+	margin-top: 2px;
+	margin-left: -3px;
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
+
+.link_back{ /*отступ для строки НАЗАД*/
+	margin-top: 25px;
+	margin-left: 12px;
+}
+
+
+#link_active{ /* выделяем активный раздел в левом меню */
+/*и оформляем его*/
+	text-decoration: underline;
+    font-style: normal;
+    color: rgb(8, 8, 155);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 22px;
+}
+#link_active:hover {
+	cursor: default; /*типа ссылка не активна*/ 
+}
+
+.mLeft li a:hover{
+	color: #9b0816; /*red*/
+}
+
+/*чекбоксы*/
+.chekbox{
+	position: absolute;
+	top: 148px;
+	left: 550px;
+	width: 412px;
+}
+
+.Check_ruk1{
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: rgb(8, 8, 155);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+}
+.Check_ruk1:hover, .Check_rab{
+	cursor: pointer;
+}
+
+.Check_rab{
+	position: absolute;
+	left: 216px;
+	margin-left: 100px;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: #070707;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+}
+
+
+/*блок для вывода списка должностей и в последующем мини описания СИЗ*/
+.rightContent{
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	width: 750px;
+	height: 600px;
+}
+
+.rightContent ul{
+	position: absolute;
+	top: 35px;
+	left: 68px;
+	list-style: disc;
+}
+.rightContent li a{ /*блок для отображение списка должностей руководителей*/
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: rgb(7, 7, 7);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+}
+
+.rightContent li a:hover{
+	color: #9b0816; /*red*/
+}
+
+
+
+.ContentShort { /*wrapper для краткого описания СИЗ*/
+	display: none; /*включим из JS*/
+	/* background-color: white; */
+}
+
+#Name_Position{ /*оформление Должность в кратком описании СИЗ*/
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	top: 1px;
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: #9b0816;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 22px;
+}
+
+.txtLinkPodrobno, #LinkPodrobno{ /*оформление Наименование и описание СИЗ*/
+	position: absolute;
+	width: 300px;
+	height: 22px;
+	top: 50px;
+	left: 5px;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: #363638;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+}
+#LinkPodrobno{ /*Подробно*/
+	width: 90px;
+	left: 269px;
+	color: #070707;
+}
+
+#LinkPodrobno:hover{
+	color: #9b0816;	
+}
+
+.tableContent{
+	position: relative;
+	top: 80px;
+	left: 1px;
+	width: 100%;
+	height: 300px;
+	
+}
+
+
+
+
+
+
+
+
+/*************************************************************/
+/*нижнее лого*/
+.footer{ 
+	position: absolute;
+	clear: both;
+	width: 425px;
+	height: 73px;
+	margin-left: 0px;
+	margin-top: 750px;
+	background: url("../img/logo-centr-mini.png") center 0 no-repeat;
+}
+
+/*Отображение по структуре   по видам СИЗ*/
+
+
+
+/*оформление текста: структура предприяти  Виды СИЗ*/
+.sturtureTxt{
+	position: absolute;
+	left: 131px;
+	font-size: 16px;
+	font-family: "Calibri";
+	color: rgb(7, 7, 7);
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 1.2;
+	text-align: left;
+	top: 34px;
+}
+.sizTxt{
+	margin-left: 615px;
+}
+
+
+
+
+.viewStrSiz{
+	position: absolute;
+	width: 317px;
+	height: 22px;
+	right: 45px;
+	top: 8px;
+}
+.viewStrSiz	p { /*Отображение:*/
+	position: absolute;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-style: normal;
+    color: rgb(7, 7, 7);
+	/*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);*/
+	font-size: 16px;
+}
+
+.viewStr{ /*активное состояние*/
+	position: absolute;
+	left: 109px;
+	text-decoration: underline;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-style: normal;
+    color: #08089b;
+	/*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);*/
+	font-size: 16px;
+}
+.viewStr:hover{
+	cursor: default;
+}
+
+
+
+.viewSiz{
+	position: absolute;
+	left: 214px;
+	text-decoration: none;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-style: normal;
+    color: #000000;
+	/*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);*/
+	font-size: 16px;
+
+}
+
+.viewSiz:hover {
+	color: #9b0816; /*red*/
+}
+

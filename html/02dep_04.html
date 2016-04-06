@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Электронный каталог СИЗ</title>
+	<link rel="shortcut icon" href="../img/logo_ico.png" type="image/png">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style_d02.css">
+</head>
+<body onload="OnLoad()"> <!-- считываем передаваемый параметр -->
+
+
+	<!-- Управление по техническому развитию и подготовке производства  -->
+	<!-- 04  Отдел главного механика и главного энергетика -->
+	<div class="wrapper">
+		<div class="headerTransparent"></div>
+		<div class="header">
+			<div class="logo"></div> <!-- end logo -->
+			<p class="head1">ЭЛЕКТРОННЫЙ КАТАЛОГ</p>
+			<p class="head1 p2">СРЕДСТВ ИНДИВИДУАЛЬНОЙ ЗАЩИТЫ И КОРПОРАТИВНОЙ СПЕЦИАЛЬНОЙ ОДЕЖДЫ</p>
+			<div class="lineh"></div> <!-- end lineh -->
+		</div>	<!-- end header -->
+		<div class="content">
+			<div class="viewStrSiz">
+				<p>Отображение: </p>
+				<a href="#" class="viewStr">по структуре</a>
+				<a href="index2Siz.html" class="viewSiz">по видам СИЗ</a>
+			</div> <!-- end viewStrSiz-->
+			<div class="contentHeader">Управление по техническому развитию и подготовке производства</div> <!-- end contentHeader -->
+			<div class="wrapperStructure Left">
+				<ul class="menu mLeft">
+					<li><a href="../html/02dep_00.html">Главный инженер</a></li>
+					<li><a href="../html/02dep_01.html">1 Отдел охраны труда и техники безопасности</a></li>
+					<li><a href="../html/02dep_02.html">2 Технический отдел</a></li>
+					<li><a href="../html/02dep_03.html">3 Отдел главного маркшейдера и геолога</a></li>
+					<li><a href="#" id="link_active">4 Отдел главного механика и главного энергетика</a></li>
+					<li><a href="../html/02dep_05.html">5 Автотранспортный цех</a></li>
+					<li><a href="../html/02dep_06.html">6 Участок связи и коммуникаций</a></li>
+					<li><a href="../html/02dep_07.html">7 Испытательная лаборатория</a></li>
+					<li><a href="../html/02dep_08.html">8 Центр автоматизированных систем управления производством (АСУП)</a></li>
+					<li><a href="../html/02dep_09.html">9 Отдел технического контроля</a></li>
+					<li class="link_back"><a href="../html/02dep_main.html">Назад</a></li>
+				</ul>
+			</div> <!-- wrapperStructureLeft -->
+
+			<div class="chekbox">
+				<label class="Check_ruk1" id="Check_ruk1"> <!-- для css оформление -->
+    		  		<input type="checkbox" id="Check_ruk">Руководители и специалисты
+    		  	</label>
+    		  	<label class="Check_rab" id="Check_rab1">
+    		  		<input type="checkbox" id="Check_rab">Рабочие
+    		  	</label>
+
+			</div>	<!-- end chekbox -->
+			<!-- список должностей руководителей -->
+			<div class="rightContent Rukov1" id="rightContent1"> 
+			<!-- Руководители и специалисты -->
+				<!-- создаем их в JS -->
+			</div> <!-- end rightContent1 -->
+
+			<!-- список должностей рабочих -->
+			<div class="rightContent Rabot2" id="rightContent2"> <!-- Рабочие -->
+			</div> <!-- end rightContent2 -->
+
+			<!-- wrapper для контента СИЗ кратко -->
+			<div class="rightContent ContentShort" id="ContentShort"> 
+				<p id="Name_Position">Должность</p>
+				<p class="txtLinkPodrobno">Наименование и описание СИЗ</p>
+				<a id="LinkPodrobno" href="#">Подробно</a>
+				<div class="tableContent">
+					<!-- все создается в JS -->
+				</div> <!-- end tableContent -->
+			</div> <!-- end rightContent ContentShort -->
+		</div> <!-- end content -->
+		<div class="footer"></div> <!--end footer --> 
+
+	</div>	<!-- end wrapper -->
+
+
+
+<!-- ТАК МОЖНО ПЕРЕДАВАТЬ ДАННЫЕ В JS -->
+
+ 	<script>
+ 		var ActivePosition = 4; 
+		// 0 Главный инженер
+		// 1 Отдел охраны труда и техники безопасности
+		// 2 Технический отдел
+		// 3 Отдел главного маркшейдера и геолога
+		// 4 Отдел главного механика и главного энергетика
+		// 5 Автотранспортный цех
+		// 6 Участок связи и коммуникаций
+		// 7 Испытательная лаборатория
+		// 8 Центр автоматизированных систем управления производством (АСУП)
+		// 9 Отдел технического контроля
+
+		var init = 1;
+		//1 - установлен чек Руководители
+		//2 - установлен чек Рабочие
+		//3 - заблокировать чек Руководители
+		//4 - заблокировать чек Рабочие
+	</script>
+
+	<script src="../js/script_dep02.js"></script>
+</body>
+</html>

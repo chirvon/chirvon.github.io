@@ -1,0 +1,366 @@
+html{
+	height: 100%;
+}
+
+body {
+	position: relative;
+	background-color: #dde3e3;
+	width: 100%;
+	max-width: 1980px;    
+}
+
+.wrapper{ /*1280*/
+	position: relative; /*1280*/
+	/*width: 100%;*/
+	width: 1314px;
+	height: 955px;
+	/*это будет минимальное разрешение экрана*/
+	/*height: 768px;*/
+	margin: 0 auto;
+	margin-top: 1px;
+	background: url("../img/bg_img3.jpg") -195px 0 no-repeat;
+	background-size: auto 955px;
+}
+
+/* верхний текст */
+.header, .headerTransparent{
+	position: absolute;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-left: -2px;
+	width: 100%;
+	height: 135px;
+}
+.header {
+	position: relative;
+}
+
+
+.headerTransparent{
+	background-color: #e8e8e8;
+	-webkit-box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.9);
+	-moz-box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.9);
+	box-shadow: 1px 2px 13px 9px rgba(240,232,240,0.95);
+	opacity: 0.7;	
+}
+.head1{
+	/*position: absolute;*/
+	display: block;
+	width: 100%;
+	height: 29px;
+	margin-top: 14px;
+	margin-left: 80px;
+	text-align: center;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: #070707;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 25px;
+
+}
+
+.p2{ /*для СРЕДСТВ ИНДИВИДУАЛЬНОЙ ЗАЩИТЫ И КОРПОРАТИВНОЙ СПЕЦИАЛЬНОЙ ОДЕЖДЫ*/
+	height: 29px;
+	margin-top: 1px;
+	margin-left: 85px;
+}
+.logo{
+	/*логотип каражиры*/
+	position: absolute;
+	width: 240px;
+	height: 107px;
+	margin-left: -5px;
+	margin-top: 0px;
+	background: url("../img/logo_karagira.png") center 0 no-repeat;
+	background-size: auto 105px; /* Масштабируем фон */
+
+}
+
+.lineh{
+	/*красивая линия в head*/
+	position: absolute;
+	width: 1280px;
+	height: 23px;
+	margin-left: 17px;
+  	margin-top: 33px;
+	background: url("../img/lineh.png") center 0 no-repeat;
+	/*background-size: auto 105px; /* Масштабируем фон */
+}
+/*************************************************************/
+/*центральная часть*/
+.content{
+	position: absolute;
+	width: 100%;
+	height: 740px;
+}
+
+
+/*оформление текста: структура предприяти  Виды СИЗ*/
+.sturtureTxt{
+	position: absolute;
+	left: 131px;
+	font-size: 16px;
+	font-family: "Calibri";
+	color: rgb(7, 7, 7);
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 1.2;
+	text-align: left;
+	top: 34px;
+}
+.sizTxt{
+	margin-left: 615px;
+}
+
+/*левое меню СТРУКТУРА ПРЕДПРИЯТИЯ*/
+.wrapperStructure{
+	position: absolute;
+	width: 460px;
+	height: 640px;
+	margin-top: 50px;
+	margin-left: 120px;
+
+}
+
+
+.Left{  /*wrapperStructure Left*/
+	margin-top: 50px;
+	margin-left: 120px;
+}
+.menu li a {
+	/*position: absolute;*/
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	line-height: 1.2;
+    font-style: normal;
+    color: rgb(7, 7, 7);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 22px;
+}
+
+.mLeft li a {
+	width: 440px;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-top: 18px;
+	padding-bottom: 20px;
+}
+
+.mLeft li a:hover{
+	color: #9b0816;
+}
+
+
+
+/*правое меню СИЗ*/
+
+/*load ico SIZ*/
+.ico{
+	position: absolute;
+	width: 37px;
+	height: 39px;
+	left: 15px;
+}
+.icoMenu1{
+	top: 25px;
+	background: url("../img/ico_menu_1.png") center 0 no-repeat;
+}
+.icoMenu2{
+	top: 73px;
+	background: url("../img/ico_menu_2.png") center 0 no-repeat;
+}
+.icoMenu3{
+	top: 130px;
+	background: url("../img/ico_menu_3.png") center 0 no-repeat;
+}
+.icoMenu4{
+	top: 185px;
+	background: url("../img/ico_menu_4.png") center 0 no-repeat;
+}
+.icoMenu5{
+	top: 243px;
+	background: url("../img/ico_menu_5.png") center 0 no-repeat;
+}
+.icoMenu6{
+	top: 297px;
+	background: url("../img/ico_menu_6.png") center 0 no-repeat;
+}
+.icoMenu7{
+	top: 351px;
+	background: url("../img/ico_menu_7.png") center 0 no-repeat;
+}
+.icoMenu8{
+	top: 408px;
+	background: url("../img/ico_menu_8.png") center 0 no-repeat;
+}
+.icoMenu9{
+	top: 475px;
+	background: url("../img/ico_menu_9.png") center 0 no-repeat;
+}
+.icoMenu10{
+	top: 545px;
+	background: url("../img/ico_menu_10.png") center 0 no-repeat;
+}
+.icoMenu11{
+	top: 600px;
+	background: url("../img/ico_menu_11.png") center 0 no-repeat;
+}
+
+
+
+.Right{
+	margin-top: 50px;
+	margin-left: 670px;
+}
+
+.mRight li a {
+	width: 100%;
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	
+}
+
+.mRight{
+	margin-top: 10px;
+	margin-left: 69px;
+	/*list-style-image: url(../img/ico_menu_1.png);*/
+}
+
+.mRight li a:hover{
+	color: #9b0816;
+}
+
+/*************************************************************/
+/*нижнее лого*/
+.footer{ 
+	position: absolute;
+	clear: both;
+	width: 425px;
+	height: 73px;
+	margin-left: 0px;
+	margin-top: 750px;
+	background: url("../img/logo-centr-mini.png") center 0 no-repeat;
+}
+
+/*текст и иконка СТАНДАРТ*/
+.standartIco{
+	position: absolute;
+	width: 59px;
+	height: 56px;
+	right: 570px;
+	top: 875px;
+	background: url("../img/ico_link_standart.png") center 0 no-repeat;
+}
+
+.standartTxt a{
+	position: absolute;
+	text-decoration: none;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-style: normal;
+    color: rgb(7, 7, 7);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 22px;
+	
+}
+
+.standartTxt1{
+	width: 100px;
+	left: 670px;
+	top: 867px;
+	padding-left: 100px;
+}
+
+.standartTxt2{
+	width: 459px;
+	left: 669px;
+	top: 892px;
+	font-size: 20px;
+	letter-spacing: -1.1px;
+	padding-left: 100px;
+}
+
+.standartIco:hover{
+	cursor: pointer;
+}
+
+
+/*Отображение по структуре   по видам СИЗ*/
+
+.viewStrSiz{
+	position: absolute;
+	width: 317px;
+	height: 22px;
+	right: 45px;
+	top: 8px;
+}
+.viewStrSiz	p { /*Отображение:*/
+	position: absolute;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-style: normal;
+    color: rgb(7, 7, 7);
+	/*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);*/
+	font-size: 16px;
+}
+
+/* 
+.viewStr{ обычное состояние
+	position: absolute;
+	left: 109px;
+	text-decoration: none;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-style: normal;
+    color: #000000;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	font-size: 16px;
+} */
+
+.viewStr{ /*активное состояние*/
+	position: absolute;
+	left: 109px;
+	text-decoration: underline;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-style: normal;
+    color: #08089b;
+	/*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);*/
+	font-size: 16px;
+}
+.viewStr:hover{
+	cursor: default;
+}
+
+
+
+.viewSiz{
+	position: absolute;
+	left: 214px;
+	text-decoration: none;
+	text-align: left;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-style: normal;
+    color: #000000;
+	/*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);*/
+	font-size: 16px;
+
+}
+
+.viewSiz:hover {
+	color: #9b0816; /*red*/
+}
+
