@@ -564,7 +564,8 @@ function createTable (ActivePosition, manualCorrectPosX) {
 	    			} 
 	    			else 
 	    			{	td.style.fontSize = '18px';
-	    				td.style.color = '#ff6827'; //цвет красный
+	    				td.style.color = '#f77746'; //цвет красный
+	    				td.style.fontWeight="bold";
 	    			}
 			
 	    		}

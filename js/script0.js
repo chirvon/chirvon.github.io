@@ -6,13 +6,13 @@ function txtColor(color) {
 
 // ************** при наведении курсора подсветить красным ***************
 document.getElementById('sTxt1').onmouseover = function() {
-	txtColor('#9b0816');
+	txtColor('#f77746');
 }
 document.getElementById('sTxt2').onmouseover = function() {
-	txtColor('#9b0816');
+	txtColor('#f77746');
 }
 document.getElementById('sIco').onmouseover = function() {
-	txtColor('#9b0816');
+	txtColor('#f77746');
 }
 
 // ************** когда курсор уходит потушить ***************

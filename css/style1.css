@@ -77,6 +77,12 @@ body {
 	background-size: auto 105px; /* Масштабируем фон */
 
 }
+.logo:hover{
+	cursor: pointer;
+}
+#logoNoCur:hover{
+	cursor: default;
+}
 
 .lineh{
 	/*красивая линия в head*/
@@ -153,7 +159,8 @@ body {
 }
 
 .mLeft li a:hover{
-	color: #9b0816;
+	color: #f77746;	/*red*/
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.0);
 }
 
 
@@ -235,7 +242,9 @@ body {
 }
 
 .mRight li a:hover{
-	color: #9b0816;
+	color: #f77746;	/*red*/
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.0);
+	/*color: #9b0816;*/
 }
 
 /*************************************************************/
@@ -361,6 +370,9 @@ body {
 }
 
 .viewSiz:hover {
-	color: #9b0816; /*red*/
+	/*color: #9b0816; /*red*/
+	color: #f77746;	/*red*/
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.0);
+
 }
 
