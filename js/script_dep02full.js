@@ -227,9 +227,17 @@ function setActiveContentFull () {
 
 setActiveContentFull(); // отобразим wrapper СИЗ подробно
 
-//linkFull.setAttribute('href', list.linkFull[0]);//поменяем ссылку ПОДРОБНО
-//createTable (objectPersons.Person0, 0); //создадим таблицу для сотрудника 1
 
+
+
+function offRow(i){
+	var a ='row'+i;
+	//	var offDiv = document.querySelector('#ContentFull');
+ 	//	var divCur = offDiv.querySelector(a);
+ 	//offDiv.removeChild(divCur);	
+	
+	document.getElementById(a).style.display='none';
+}
 
 
 //удалим предыдущую таблицу
@@ -362,9 +370,7 @@ function createTable (ActivePosition, manualCorrectPosX) {
 	wrapper3.style.top = (posXListAfterTable - 280 + manualCorrectPosX + globalPosX) + 'px';
 
 
-	//уберем фон для wrapper
-	var wrapper4 = document.querySelector('.wrapper');
-		wrapper4.style.background = 'none';
+
 
 	arbitreTable = 1; //таблица создана (арбитр для последующего удаления)
 }
@@ -382,11 +388,69 @@ var globalPosX = 0;
 // ***************************************************************************
 
 
+
+function createContent (ActivePosition, NomenklatSIZ, ID, list) {
+	
+	//отобразим текущую должность (красным )
+	Name_Position.innerHTML = ActivePosition.position; 
+	//поменяем ссылку ПОДРОБНО
+	linkFull.setAttribute('href', list);
+	
+
+	//получим в доступ все Р в определенном row ID
+	var rowN = document.getElementById(ID);
+	//console.log(rowN);
+	var textP = rowN.getElementsByTagName('p');
+
+	console.log(textP);
+	var iNum = 0; //для какого СИЗ создаем из списка конкретной должности
+	//поменяем название СИЗ
+	textP[0].innerHTML = ActivePosition.naimenovanie[iNum];
+
+	//поменяем техничесое описание СИЗ
+	textP[2].innerHTML = 'ActivePosition.naimenovanie[iNum]';
+	
+	//поменяем сертификат соответствия
+	textP[4].innerHTML = 'ГОСТ 27575-87 (мужской) или ГОСТ 27574-87 (женский).<br/>Сертификат соответствия ТР ТС 019/2011 - серийный выпуск спецодежды.';
+
+	//поменяем Производителя 1
+	textP[6].innerHTML = 'ТОО "Завод Плюс"';	
+	//поменяем Производителя 2
+	textP[7].innerHTML = 'ТОО "Дитранс"';	
+
+	//поменяем Норму СИЗ
+	textP[8].innerHTML = ActivePosition.number[iNum+1];	
+
+	//поменяем картинку
+
+	var url_img = ['../img/ns81.png', '../img/ns100.jpg']
+
+	var col_img = document.getElementById('col_img');
+		//col_img.style.background= "url('../img/ns81.png') no-repeat center center";
+
+		var str_url = 'url(' + url_img[iNum] + ')' + ' ' + 'no-repeat' + ' ' + 'center' + ' ' + 'center';
+
+		col_img.style.background= str_url;
+
+		col_img.style.backgroundSize = "auto 245px";
+		
+    
+
+
+
+
+}
+
 function cycleMain (){
 
-	//linkFull.setAttribute('href', listPositionDep02_Otd03_Ruk.linkFull[0]);//поменяем ссылку ПОДРОБНО
-	setActiveContentFull(); // отобразим wrapper СИЗ коротко
-	createTable (person_15, 5); //создадим таблицу для сотрудника
+	//уберем фон для wrapper
+	var wrapper4 = document.querySelector('.wrapper');
+	wrapper4.style.background = 'none';	
+	setActiveContentFull(); // отобразим wrapper СИЗ подробно
+
+//	createContent(person_15, NomenklatSIZ_1,'row1', listPositionDep02_Otd03_Ruk.linkShort[0]);
+
+	//offRow(2);
 }
 
 cycleMain (); 

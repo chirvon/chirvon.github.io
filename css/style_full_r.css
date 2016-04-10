@@ -319,7 +319,7 @@ opacity: 0.7;	 */
 	width: 425px;
 	height: 73px;
 	margin-left: 0px;
-	margin-top: 16570px;
+	margin-top: 21570px;
 	background: url("../img/logo-centr-mini.png") center 0 no-repeat;
 }
 
@@ -418,8 +418,8 @@ opacity: 0.7;	 */
 
 .row1, .row2, .row3, .row4, 
 .row5_1, .row5_2, .row5_3, .row5_4,
-.row6_1, .row6_2, .row7, .row8_1, .row8_2, .row9, .row10,
-.row11, .row12, .row13, .row14, .row15, .row16, .row17{
+.row6_1, .row6_2, .row7, .row8_1, .row8_2, .row9, .row9x2, .row9x3, .row9x4, .row10,
+.row11, .row12, .row13, .row14, .row15, .row16, .row17, .row18, .row19 {
 	position: relative;
 	top: 130px;
 	width: 1070px;
@@ -437,9 +437,7 @@ opacity: 0.7;	 */
 }
 
 
-.row4{
-	top: 600px;
-}
+
 
 
 .col_img{ 
@@ -447,7 +445,7 @@ opacity: 0.7;	 */
 	width: 529px;
 	height: 320px;
 	margin-left: 5px;
-	background: url("../img/ns81.jpg") center center no-repeat;
+	background: url("../img/ns68.jpg") center center no-repeat;
 	background-size: auto 245px; 
 	
 }
@@ -490,8 +488,35 @@ opacity: 0.7;	 */
 	height: 320px;
 	margin-left: 5px;
 	top: 1px;
-	background: url("../img/ns28.jpg") center center no-repeat;
+	background: url("../img/ns27_1.jpg") center center no-repeat;
 	background-size: auto 245px; 
+}
+
+
+.row3 .col_img2{ 
+	position: absolute;
+	width: 529px;
+	height: 320px;
+	margin-left: 5px;
+	top: 300px;
+	background: url("../img/ns27_2.jpg") center center no-repeat;
+	background-size: auto 245px; 
+}
+
+.row3 .col_img3{ 
+	position: absolute;
+	width: 529px;
+	height: 320px;
+	margin-left: 5px;
+	top: 600px;
+	background: url("../img/ns27_3.jpg") center center no-repeat;
+	background-size: auto 245px; 
+}
+
+
+
+.row4{
+	top: 1100px;
 }
 
 
@@ -515,10 +540,59 @@ opacity: 0.7;	 */
 	background-size: auto 245px; 
 }
 
+
+
+
+
+/*  ***********  row 14  ***********  */
+	.row14{ /*еще в вверху есть см 419*/
+		top: 1700px;
+	}
+
+	.row14 .col_img{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1px;
+		background: url("../img/ns14_1.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+	.row14 .col_img2{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 200px;
+		background: url("../img/ns14_2.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+
+	.row14 .col_img3{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 400px;
+		background: url("../img/ns14_3.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+	.row14 .col_img4{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 600px;
+		background: url("../img/ns14_4.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
 /*  ***********  row 5_1  ***********  */
 
 	.row5_1{ /*еще в вверху есть см 419*/
-		top: 1200px;
+		top: 2300px;
 	}
 
 	.row5_1 .col_img{ 
@@ -574,7 +648,7 @@ opacity: 0.7;	 */
 /*  ***********  row 5_2  ***********  */
 
 	.row5_2{ /*еще в вверху есть см 419*/
-		top: 2000px;
+		top: 3100px;
 	}
 
 	.row5_2 .col_img{ 
@@ -600,7 +674,7 @@ opacity: 0.7;	 */
 /*  ***********  row 5_3  ***********  */
 
 	.row5_3{ /*еще в вверху есть см 419*/
-		top: 2250px;
+		top: 3350px;
 	}
 
 	.row5_3 .col_img{ 
@@ -616,7 +690,7 @@ opacity: 0.7;	 */
 /*  ***********  row 5_4  ***********  */
 
 	.row5_4{ /*еще в вверху есть см 419*/
-		top: 2500px;
+		top: 3600px;
 	}
 
 	.row5_4 .col_img{ 
@@ -641,7 +715,7 @@ opacity: 0.7;	 */
 /*  ***********  row 6_1  ***********  */
 
 	.row6_1{ /*еще в вверху есть см 419*/
-		top: 2900px;
+		top: 4000px;
 	}
 
 	.row6_1 .col_img{ 
@@ -687,7 +761,7 @@ opacity: 0.7;	 */
 /*  ***********  row 6_2  ***********  */
 
 	.row6_2{ /*еще в вверху есть см 419*/
-		top: 3600px;
+		top: 4700px;
 	}
 
 	.row6_2 .col_img{ 
@@ -703,7 +777,7 @@ opacity: 0.7;	 */
 /*  ***********  row 7  ***********  */
 
 	.row7{ /*еще в вверху есть см 419*/
-		top: 3820px;
+		top: 4920px;
 	}
 
 	.row7 .col_img{ 
@@ -818,7 +892,7 @@ opacity: 0.7;	 */
 
 /*  ***********  row 8_1  ***********  */
 	.row8_1{ /*еще в вверху есть см 419*/
-		top: 5800px;
+		top: 6900px;
 	}
 
 	.row8_1 .col_img{ 
@@ -883,7 +957,7 @@ opacity: 0.7;	 */
 
 /*  ***********  row 8_2 ***********  */
 	.row8_2{ /*еще в вверху есть см 419*/
-		top: 6800px;
+		top: 7900px;
 	}
 
 	.row8_2 .col_img{ 
@@ -907,7 +981,7 @@ opacity: 0.7;	 */
 
 /*  ***********  row 9  ***********  */
 	.row9{ /*еще в вверху есть см 419*/
-		top: 7000px;
+		top: 8100px;
 	}
 
 	.row9 .col_img{ 
@@ -970,9 +1044,111 @@ opacity: 0.7;	 */
 		background-size: auto 200px; 
 	}
 
+
+/*  ***********  row 9x2  ***********  */
+	.row9x2{ /*еще в вверху есть см 419*/
+		top: 9100px;
+	}
+
+	.row9x2 .col_img{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1px;
+		background: url("../img/ns9_1.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+	.row9x2 .col_img2{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 200px;
+		background: url("../img/ns9_2.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+
+	.row9x2 .col_img3{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 400px;
+		background: url("../img/ns9_3.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+	.row9x2 .col_img4{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 600px;
+		background: url("../img/ns9_4.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+	.row9x2 .col_img5{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 800px;
+		background: url("../img/ns9_5.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+	.row9x2 .col_img6{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1000px;
+		background: url("../img/ns9_6.jpg") center center no-repeat;
+		background-size: auto 200px; 
+	}
+
+
+/*  ***********  row 9x3  ***********  */
+	.row9x3{ /*еще в вверху есть см 419*/
+		top: 10100px;
+	}
+
+	.row9x3 .col_img{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1px;
+		background: url("../img/ns9_1.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+	.row9x3 .col_img2{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 200px;
+		background: url("../img/ns9_2.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+
+	.row9x3 .col_img3{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 400px;
+		background: url("../img/ns9_3.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
 /*  ***********  row 10  ***********  */
 	.row10{ /*еще в вверху есть см 419*/
-		top: 8000px;
+		top: 10500px;
 	}
 
 	.row10 .col_img{ 
@@ -995,7 +1171,7 @@ opacity: 0.7;	 */
 	}
 .dopSummer, .dopWinter{
 	position: relative;
-	top: 8165px;
+	top: 10666px;
 	text-align: left;
 	font-family: "Calibri";
 	font-style: normal;
@@ -1006,7 +1182,7 @@ opacity: 0.7;	 */
 
 /*  ***********  row 11  ***********  */
 	.row11{ /*еще в вверху есть см 419*/
-		top: 8200px;
+		top: 10700px;
 	}
 
 	.row11 .col_img{ 
@@ -1021,7 +1197,7 @@ opacity: 0.7;	 */
 	
 /*  ***********  row 12  ***********  */
 	.row12{ /*еще в вверху есть см 419*/
-		top: 8200px;
+		top: 10700px;
 	}
 
 	.row12 .col_img{ 
@@ -1035,13 +1211,13 @@ opacity: 0.7;	 */
 	}
 
 .dopWinter{
-	top: 8190px;
+	top: 10700px;
 }
 
 
 /*  ***********  row 13  ***********  */
 	.row13{ /*еще в вверху есть см 419*/
-		top: 8250px;
+		top: 10750px;
 	}
 
 	.row13 .col_img{ 
@@ -1050,58 +1226,12 @@ opacity: 0.7;	 */
 		height: 320px;
 		margin-left: 5px;
 		top: 1px;
-		background: url("../img/ns13_1.jpg") center center no-repeat;
+		background: url("../img/ns95.jpg") center center no-repeat;
 		background-size: auto 250px; 
 	}
-
-/*  ***********  row 14  ***********  */
-	.row14{ /*еще в вверху есть см 419*/
-		top: 8350px;
-	}
-
-	.row14 .col_img{ 
-		position: absolute;
-		width: 529px;
-		height: 320px;
-		margin-left: 5px;
-		top: 1px;
-		background: url("../img/ns14_1.jpg") center center no-repeat;
-		background-size: auto 150px; 
-	}
-	.row14 .col_img2{ 
-		position: absolute;
-		width: 529px;
-		height: 320px;
-		margin-left: 5px;
-		top: 200px;
-		background: url("../img/ns14_2.jpg") center center no-repeat;
-		background-size: auto 150px; 
-	}
-
-
-	.row14 .col_img3{ 
-		position: absolute;
-		width: 529px;
-		height: 320px;
-		margin-left: 5px;
-		top: 400px;
-		background: url("../img/ns14_3.jpg") center center no-repeat;
-		background-size: auto 150px; 
-	}
-
-	.row14 .col_img4{ 
-		position: absolute;
-		width: 529px;
-		height: 320px;
-		margin-left: 5px;
-		top: 600px;
-		background: url("../img/ns14_4.jpg") center center no-repeat;
-		background-size: auto 150px; 
-	}
-
 /*  ***********  row 15  ***********  */
 	.row15{ /*еще в вверху есть см 419*/
-		top: 8950px;
+		top: 10450px;
 	}
 
 	.row15 .col_img{ 
@@ -1143,8 +1273,159 @@ opacity: 0.7;	 */
 		background: url("../img/ns15_4.jpg") center center no-repeat;
 		background-size: auto 150px; 
 	}
+/*  ***********  row 16  ***********  */
+	.row16{ /*еще в вверху есть см 419*/
+		top: 10800px;
+	}
+
+	.row16 .col_img{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1px;
+		background: url("../img/ns82.jpg") center center no-repeat;
+		background-size: auto 250px; 
+	}
+/*  ***********  row 17  ***********  */
+	.row17{ /*еще в вверху есть см 419*/
+		top: 10850px;
+	}
+
+	.row17 .col_img{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1px;
+		background: url("../img/ns63_1.jpg") center center no-repeat;
+		background-size: auto 250px; 
+	}
+
+	.row17 .col_img2{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 300px;
+		background: url("../img/ns63_2.jpg") center center no-repeat;
+		background-size: auto 250px; 
+	}
+/*  ***********  row 18  ***********  */
+	.row18{ /*еще в вверху есть см 419*/
+		top: 11200px;
+	}
+
+	.row18 .col_img{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1px;
+		background: url("../img/ns14_1.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+	.row18 .col_img2{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 200px;
+		background: url("../img/ns14_2.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+	.row18 .col_img3{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 400px;
+		background: url("../img/ns14_3.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+	.row18 .col_img4{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 600px;
+		background: url("../img/ns14_4.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
 
 
+/*  ***********  row 19  ***********  */
+	.row19{ /*еще в вверху есть см 419*/
+		top: 11750px;
+	}
+
+	.row19 .col_img{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1px;
+		background: url("../img/ns15_1.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+	.row19 .col_img2{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 200px;
+		background: url("../img/ns15_2.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+
+	.row19 .col_img3{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 400px;
+		background: url("../img/ns15_3.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+	.row19 .col_img4{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 600px;
+		background: url("../img/ns15_4.jpg") center center no-repeat;
+		background-size: auto 150px; 
+	}
+
+
+
+/*  ***********  row 9x4  ***********  */
+	.row9x4{ /*еще в вверху есть см 419*/
+		top: 12300px;
+	}
+
+	.row9x4 .col_img{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 1px;
+		background: url("../img/ns47_1.jpg") center center no-repeat;
+		background-size: auto 190px; 
+	}
+	.row9x4 .col_img2{ 
+		position: absolute;
+		width: 529px;
+		height: 320px;
+		margin-left: 5px;
+		top: 200px;
+		background: url("../img/ns47_2.jpg") center center no-repeat;
+		background-size: auto 190px; 
+	}
 
 /* *************************************************/
 
